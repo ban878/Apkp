@@ -9,10 +9,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    defaults:
-      run:
-        working-directory: "نسخه نص"
-
     steps:
     - name: استلام الكود
       uses: actions/checkout@v4
@@ -22,16 +18,29 @@ jobs:
       with:
         distribution: 'temurin'
         java-version: '17'
-
-    - name: إعداد Android SDK
-      uses: android-actions/setup-android@v3
+        # إضافة خاصية الـ cache لتسريع البناء مستقبلاً
+        cache: 'gradle'
 
     - name: منح صلاحيات Gradle
-      run: chmod +x gradlew
+      # نستخدم "shell: bash" ونحدد المسار بدقة مع علامات الاقتباس
+      run: |
+        cd "نسخه نص"
+        chmod +x gradlew
+      shell: bash
 
     - name: بناء Release APK
-      run: ./gradlew assembleRelease --stacktrace
+      run: |
+        cd "نسخه نص"
+        ./gradlew assembleRelease --stacktrace
+      shell: bash
 
+    - name: رفع APK
+      uses: actions/upload-artifact@v4
+      with:
+        name: app-release
+        # تأكد أن هذا المسار يطابق بنية مجلدات مشروعك بدقة
+        path: "نسخه نص/app/build/outputs/apk/release/*.apk"
+    
     - name: رفع APK
       uses: actions/upload-artifact@v4
       with:
