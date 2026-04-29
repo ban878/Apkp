@@ -1,0 +1,35 @@
+name: بناء Release APK
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: استلام الكود
+      uses: actions/checkout@v4
+
+    - name: إعداد Java 17
+      uses: actions/setup-java@v4
+      with:
+        distribution: 'temurin'
+        java-version: '17'
+
+    - name: إعداد Android SDK
+      uses: android-actions/setup-android@v3
+
+    - name: منح صلاحيات Gradle
+      run: chmod +x gradlew
+
+    - name: بناء Release APK
+      run: ./gradlew assembleRelease --stacktrace
+
+    - name: رفع APK
+      uses: actions/upload-artifact@v4
+      with:
+        name: app-release
+        path: app/build/outputs/apk/release/*.apk
