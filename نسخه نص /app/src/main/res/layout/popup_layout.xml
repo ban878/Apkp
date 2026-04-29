@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="bottom"
+    android:paddingBottom="60dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/popup_background"
+        android:padding="12dp"
+        android:elevation="8dp">
+
+        <LinearLayout
+            android:id="@+id/action_bar_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left|center_vertical"
+            android:layout_marginBottom="12dp">
+
+            <ImageButton
+                android:id="@+id/btn_clear_magic"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/circle_button_magic"
+                android:src="@drawable/ic_magic_wand"
+                android:tint="#FFFFFF"
+                android:contentDescription="زر المسح"/>
+
+            <ImageButton
+                android:id="@+id/btn_translate_popup"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/circle_button_blue"
+                android:tint="#FFFFFF"
+                android:src="@drawable/ic_translate"
+                android:contentDescription="زر الترجمة"/>
+
+            <ImageButton
+                android:id="@+id/btn_share_popup"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/circle_button_pink"
+                android:src="@drawable/ic_share"
+                android:contentDescription="زر المشاركة"/>
+
+            <ImageButton
+                android:id="@+id/btn_copy_final"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/circle_button_pink"
+                android:src="@drawable/ic_copy"
+                android:contentDescription="زر النسخ"/>
+                
+            <ImageButton
+        android:id="@+id/btn_close_popup"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="top|end" 
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:tint="#FF0000" />
+            
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#33FFFFFF"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/edit_text_popup_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:gravity="right"
+            android:background="@null"
+            android:hint="النص المستخرج..."
+            android:textColorHint="#888888"
+            android:layout_marginTop="8dp"
+            android:lineSpacingMultiplier="1.2"
+            android:isScrollContainer="true"
+            android:maxLines="10"
+            android:scrollbars="vertical"
+            android:inputType="textMultiLine"
+            android:textIsSelectable="true"/>
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/ic_magic_wand"
+            android:tint="#AAAAAA"
+            android:layout_gravity="right"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+</LinearLayout>

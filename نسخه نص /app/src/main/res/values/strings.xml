@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Universal Copy</string>
+    <string name="app_subtitle">Copy and translate any text with one click</string>
+
+    <string name="btn_enable_service">Enable Service</string>
+    <string name="btn_service_running">Service is running</string>
+    <string name="btn_enable_now">Enable Service Now</string>
+    <string name="txt_select_language">Select translation language here:</string>
+    <string name="txt_manage_languages_hint">* Long press the download button to manage languages</string>
+    <string name="btn_font_store">Font &amp; Design Store</string>
+    <string name="toast_downloading">Downloading language model in background...</string>
+    <string name="toast_download_success">Language downloaded successfully!</string>
+    <string name="toast_download_fail">Download failed, check internet connection</string>
+    <string name="toast_enable_search">Please find the app and enable it</string>
+
+    <string name="toast_no_text">No readable text found</string>
+    <string name="toast_feature_disabled">This feature is temporarily disabled for updates!</string>
+    <string name="txt_translating">Translating...</string>
+    <string name="txt_translating_offline">Translating offline...</string>
+    <string name="txt_translating_forced">Translating forcefully offline...</string>
+    <string name="toast_trans_error">Translation error occurred</string>
+    <string name="toast_lang_not_downloaded">Language file not downloaded.</string>
+    <string name="toast_sys_error">System error occurred</string>
+    <string name="toast_copied">Copied successfully</string>
+    <string name="toast_design_applied_part">Design applied to selected text!</string>
+    <string name="toast_design_applied_all">Design applied to all text!</string>
+    <string name="toast_lang_not_recognized">Sorry, we couldn\'t identify the text language</string>
+    <string name="toast_model_not_downloaded">⚠️ Language pack not downloaded! Please download it from the app first.</string>
+    <string name="toast_engine_error">An error occurred in the language engine</string>
+
+    <string name="store_title">Font &amp; Design Store</string>
+    <string name="store_preview_text">Hello User, this text is to test the design.\nمرحباً بك، هذا النص لتجربة التصميم.</string>
+    <string name="btn_download">Download</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_downloading">Downloading...</string>
+    <string name="toast_store_limit">You reached the limit (10 designs)! Delete one to download another.</string>
+    <string name="toast_download_first">You must download the design first to test it</string>
+    <string name="toast_font_downloaded">Downloaded:</string>
+    <string name="toast_font_deleted">Design deleted successfully</string>
+    <string name="toast_read_error">Error reading design file</string>
+
+    <string name="title_downloaded_languages">Downloaded Languages</string>
+    <string name="toast_no_models">No downloaded languages found</string>
+    <string name="toast_read_models_error">Failed to read files</string>
+    <string name="toast_deleting">Deleting...</string>
+    <string name="toast_model_deleted">Language deleted successfully</string>
+    <string name="toast_delete_failed">Delete failed</string>
+    <string name="btn_image_copy">Copy from Image</string>
+
+    <string name="title_how_to_use">How to Use</string>
+    <string name="msg_how_to_use_tile">To activate copying: Pull down the notification bar, click on the three dots (or edit icon), select edit buttons, and drag the Service Activation button to your active tiles!</string>
+    <string name="btn_got_it">Got it</string>
+    <string name="toast_offline_free">Offline mode: Free use granted. Ad deferred until you are online.</string>
+    <string name="toast_loading_ad">Loading reward...</string>
+    <string name="toast_ad_failed_free_uses">No ads available right now. You got 10 free uses!</string>
+    <string name="toast_reward_granted">🎉 You got 10 new uses!</string>
+    <string name="settings_title">Settings</string>
+    <string name="accessibility_desc">This service allows the app to copy and translate text from your screen.</string>
+
+    <string name="header_title">Font Library</string>
+    <string name="search_hint">🔍 Search font...</string>
+    <string name="btn_random"> Random</string>
+    <string name="btn_my_library"> My Library</string>
+    <string name="btn_store">Store</string>
+    <string name="preview_label"> Text Preview</string>
+    <string name="preview_text">Hello World!\nمرحبا بالعالم! 123</string>
+    <string name="list_header"> Fonts List</string>
+    <string name="badge_active">✓ Active</string>
+    <string name="btn_select">Select</string>
+    <string name="btn_preview">Preview</string>
+    <string name="empty_library">📭 Your library is empty\nDownload some fonts first</string>
+    <string name="empty_search">🔍 No results found\nTry different keyword</string>
+    <string name="toast_font_selected">✓ Font selected</string>
+    <string name="toast_previewing">⏳ Loading preview...</string>
+    <string name="toast_preview_ready">👀 Preview:</string>
+    <string name="toast_preview_failed"> Preview failed</string>
+    <string name="toast_limit_reached"> Maximum 15 fonts only</string>
+    <string name="toast_download_failed">Download failed</string>
+    <string name="toast_delete_success"> Deleted:</string>
+    <string name="toast_db_error">Database error</string>
+</resources>

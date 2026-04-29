@@ -1,0 +1,20 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/نسخه نص /app/src/main/AndroidManifest.xml",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 1509,
+          "line": 38
+        },
+        "start": {
+          "column": 0,
+          "index": 1509,
+          "line": 38
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/نسخه نص /app/src/main/AndroidManifest.xml"
+}

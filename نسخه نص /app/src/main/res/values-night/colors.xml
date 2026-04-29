@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_main">#121212</color>
+    <color name="card_bg">#1E1E1E</color>
+    <color name="spinner_bg">#2C2C2C</color>
+    <color name="text_title">#FFFFFF</color>
+    <color name="text_main">#E0E0E0</color>
+    <color name="text_secondary">#AAAAAA</color>
+    <color name="divider_color">#333333</color>
+    
+    <!-- FontStoreActivity specific colors -->
+    <color name="background_light">#121212</color>
+    <color name="background_dark">#121212</color>
+    <color name="card_light">#1E1E1E</color>
+    <color name="card_dark">#1E1E1E</color>
+    <color name="text_primary_light">#FFFFFF</color>
+    <color name="text_primary_dark">#FFFFFF</color>
+    <color name="text_secondary_light">#B0B0B0</color>
+    <color name="text_secondary_dark">#B0B0B0</color>
+    <color name="text_name_light">#E0E0E0</color>
+    <color name="text_name_dark">#E0E0E0</color>
+    <color name="active_bg_light">#1B3B1A</color>
+    <color name="active_bg_dark">#1B3B1A</color>
+    <color name="active_text_light">#81C784</color>
+    <color name="active_text_dark">#81C784</color>
+    <color name="badge_bg_light">#2E7D32</color>
+    <color name="badge_bg_dark">#2E7D32</color>
+    <color name="search_bg">#2C2C2C</color>
+    <color name="search_text">#FFFFFF</color>
+    <color name="search_hint">#808080</color>
+</resources>

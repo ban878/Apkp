@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">النسخ الشامل</string>
+    <string name="app_subtitle">انسخ وترجم أي نص بضغطة واحدة</string>
+
+    <string name="btn_enable_service">تفعيل الخدمة</string>
+    <string name="btn_service_running">الخدمة تعمل</string>
+    <string name="btn_enable_now">فعّل الخدمة الآن</string>
+    <string name="txt_select_language">اختر لغة الترجمة من هنا:</string>
+    <string name="txt_manage_languages_hint">* اضغط مطولاً على زر التحميل لإدارة اللغات</string>
+    <string name="btn_font_store">متجر الخطوط والتصاميم</string>
+    <string name="toast_downloading">جاري تحميل حزمة اللغة في الخلفية...</string>
+    <string name="toast_download_success">تم تحميل اللغة بنجاح!</string>
+    <string name="toast_download_fail">فشل التحميل، تأكد من اتصالك بالإنترنت</string>
+    <string name="toast_enable_search">يرجى البحث عن التطبيق وتفعيله</string>
+
+    <string name="toast_no_text">لم يتم العثور على نص يمكن قراءته</string>
+    <string name="toast_feature_disabled">هذه الميزة معطلة مؤقتاً للتحديث!</string>
+    <string name="txt_translating">جاري الترجمة...</string>
+    <string name="txt_translating_offline">جاري الترجمة بدون إنترنت...</string>
+    <string name="txt_translating_forced">جاري الترجمة الإجبارية بدون إنترنت...</string>
+    <string name="toast_trans_error">حدث خطأ أثناء الترجمة</string>
+    <string name="toast_lang_not_downloaded">ملف اللغة غير محمل.</string>
+    <string name="toast_sys_error">حدث خطأ في النظام</string>
+    <string name="toast_copied">تم النسخ بنجاح</string>
+    <string name="toast_design_applied_part">تم تطبيق التصميم على النص المحدد!</string>
+    <string name="toast_design_applied_all">تم تطبيق التصميم على كل النص!</string>
+    <string name="toast_lang_not_recognized">عذراً، لم نتمكن من التعرف على لغة النص</string>
+    <string name="toast_model_not_downloaded">⚠️ حزمة اللغة غير محملة! يرجى تحميلها من التطبيق أولاً.</string>
+    <string name="toast_engine_error">حدث خطأ في محرك اللغات</string>
+
+    <string name="store_title">متجر الخطوط والتصاميم</string>
+    <string name="store_preview_text">Hello User, this text is to test the design.\nمرحباً بك، هذا النص لتجربة التصميم.</string>
+    <string name="btn_download">تحميل</string>
+    <string name="btn_delete">حذف</string>
+    <string name="btn_downloading">جاري التحميل...</string>
+    <string name="toast_store_limit">لقد وصلت للحد الأقصى (10 تصاميم)! احذف واحداً لتحميل آخر.</string>
+    <string name="toast_download_first">يجب عليك تحميل التصميم أولاً لتجربته</string>
+    <string name="toast_font_downloaded">تم تحميل:</string>
+    <string name="toast_font_deleted">تم حذف التصميم بنجاح</string>
+    <string name="toast_read_error">خطأ في قراءة ملف التصميم</string>
+
+    <string name="title_downloaded_languages">اللغات المحملة</string>
+    <string name="toast_no_models">لا توجد لغات محملة</string>
+    <string name="toast_read_models_error">فشل في قراءة الملفات</string>
+    <string name="toast_deleting">جاري الحذف...</string>
+    <string name="toast_model_deleted">تم حذف اللغة بنجاح</string>
+    <string name="toast_delete_failed">فشل الحذف</string>
+    <string name="btn_image_copy">النسخ من صورة</string>
+
+    <string name="title_how_to_use">طريقة الاستخدام</string>
+    <string name="msg_how_to_use_tile">لتفعيل النسخ: اسحب شريط الإشعارات للأسفل، اضغط على النقاط الثلاث (أو أيقونة التعديل)، اختر تعديل الأزرار، ثم اسحب زر تفعيل الخدمة إلى أزرارك النشطة!</string>
+    <string name="btn_got_it">حسناً، فهمت</string>
+    <string name="toast_offline_free">وضع عدم الاتصال: تم منحك محاولات مجانية. تم تأجيل الإعلان لحين توفر إنترنت.</string>
+    <string name="toast_loading_ad">جاري تحميل المكافأة...</string>
+    <string name="toast_ad_failed_free_uses">لا توجد إعلانات حالياً. لقد حصلت على 10 محاولات مجانية!</string>
+    <string name="toast_reward_granted">🎉 لقد حصلت على 10 محاولات جديدة!</string>
+    <string name="settings_title">الإعدادات</string>
+    <string name="accessibility_desc">تتيح هذه الخدمة للتطبيق نسخ وترجمة النصوص من شاشتك.</string>
+
+    <string name="header_title">مكتبة الخطوط</string>
+    <string name="search_hint">🔍 ابحث عن خط...</string>
+    <string name="btn_random"> عشوائي</string>
+    <string name="btn_my_library"> مكتبتي</string>
+    <string name="btn_store">المتجر</string>
+    <string name="preview_label"> معاينة النص</string>
+    <string name="preview_text">Hello World!\nمرحبا بالعالم! 123</string>
+    <string name="list_header"> قائمة الخطوط</string>
+    <string name="badge_active">✓ نشط</string>
+    <string name="btn_select">اختيار</string>
+    <string name="btn_preview">معاينة</string>
+    <string name="empty_library">📭 مكتبتك فارغة\nقم بتحميل بعض الخطوط أولاً</string>
+    <string name="empty_search">🔍 لا توجد نتائج\nجرب كلمة بحث مختلفة</string>
+    <string name="toast_font_selected">✓ تم اختيار الخط</string>
+    <string name="toast_previewing">⏳ جاري تحميل المعاينة...</string>
+    <string name="toast_preview_ready">👀 المعاينة:</string>
+    <string name="toast_preview_failed"> فشلت المعاينة</string>
+    <string name="toast_limit_reached"> الحد الأقصى 15 خطاً فقط</string>
+    <string name="toast_download_failed">فشل التحميل</string>
+    <string name="toast_delete_success"> تم حذف:</string>
+    <string name="toast_db_error">خطأ في قاعدة البيانات</string>
+</resources>
