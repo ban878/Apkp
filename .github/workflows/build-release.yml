@@ -11,7 +11,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: "Apkp/نسخه نص"
+        working-directory: "نسخه نص"
 
     steps:
     - name: استلام الكود
@@ -36,4 +36,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: app-release
-        path: "Apkp/نسخه نص/app/build/outputs/apk/release/*.apk" 
+        path: "نسخه نص/app/build/outputs/apk/release/*.apk"    
