@@ -18,31 +18,19 @@ jobs:
       with:
         distribution: 'temurin'
         java-version: '17'
-        # إضافة خاصية الـ cache لتسريع البناء مستقبلاً
         cache: 'gradle'
 
-    - name: منح صلاحيات Gradle
-      # نستخدم "shell: bash" ونحدد المسار بدقة مع علامات الاقتباس
+    - name: منح صلاحيات Gradle وبناء التطبيق
       run: |
-        cd "نسخه نص"
+        # استبدل "نسخه نص" بالاسم الدقيق للمجلد كما هو في GitHub
+        cd "نسخه نص" 
         chmod +x gradlew
-      shell: bash
-
-    - name: بناء Release APK
-      run: |
-        cd "نسخه نص"
         ./gradlew assembleRelease --stacktrace
       shell: bash
 
-    - name: رفع APK
+    - name: رفع الملف الناتج
       uses: actions/upload-artifact@v4
       with:
-        name: app-release
-        # تأكد أن هذا المسار يطابق بنية مجلدات مشروعك بدقة
-        path: "نسخه نص/app/build/outputs/apk/release/*.apk"
-    
-    - name: رفع APK
-      uses: actions/upload-artifact@v4
-      with:
-        name: app-release
-        path: "نسخه نص/app/build/outputs/apk/release/*.apk"    
+        name: UniversalCopy-Release
+        # المسار يجب أن يكون دقيقاً جداً
+        path: "**/build/outputs/apk/release/*.apk"
